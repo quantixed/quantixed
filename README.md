@@ -1,6 +1,6 @@
 <!-- ### Hi there 👋 -->
 
-![quantixed on GitHub](https://github-readme-stats.vercel.app/api?username=quantixed)
+![quantixed on GitHub](https://github-readme-stats.vercel.app/api?username=quantixed&count_private=true&show_icons=true)
 <!-- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=quantixed&layout=compact) -->
 
 <!--

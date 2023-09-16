@@ -16,11 +16,10 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
-name: Full history calendar
-uses: quantixed/metrics@master
-with:
-  filename: metrics.plugin.calendar.full.svg
-  token: ${{ secrets.METRICS_TOKEN }}
-  base: ""
-  plugin_calendar: yes
-  plugin_calendar_limit: 3
+          #Options
+          user: quantixed
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Europe/London
+          plugin_calendar: yes
+          plugin_calendar_limit: 3

@@ -17,6 +17,7 @@ jobs:
         with:
           filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          config_timezone: Europe/London
 
       - name: Full history calendar
         uses: quantixed/metrics@master
@@ -28,4 +29,4 @@ jobs:
           base: ""
           config_timezone: Europe/London
           plugin_calendar: yes
-          plugin_calendar_limit: 3
+          plugin_calendar_limit: 4
